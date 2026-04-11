@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Lesson1._01_Variables_and_Data_Types.Variables.Lesson1();
         }
     }
 }
