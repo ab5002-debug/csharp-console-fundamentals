@@ -14,7 +14,7 @@ The project is organized into modular folders based on specific topics to ensure
 
 ***02_Decision_Structures***: Logic implementation using if-else statements and switch-case blocks. (Up Coming)
 
-***03_Loops***: Implementation of for, while, and do-while loops (Upcoming).
+***03_Loops***: Implementation of for, while, and do-while loops (Up Coming).
 
   ## **Tech Stack**
 
@@ -32,7 +32,7 @@ To explore the lessons:
 
 -*Clone this repository*.
 
--*Open the .sln (Solution) file in Visual Studio 2022.*
+-*Open the .sln (Solution) file in Visual Studio 2026.*
 
 -*Navigate to Program.cs to see the entry point.*
 
