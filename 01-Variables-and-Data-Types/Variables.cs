@@ -8,7 +8,7 @@ namespace Lesson1._01_Variables_and_Data_Types
     {
         public static void Lesson1()
         {
-            #region PrintingCommands
+            #region Printing Commands
 
             //Console.WriteLine("Hello, World!");
             //Console.Write("Hi!");
@@ -90,54 +90,109 @@ namespace Lesson1._01_Variables_and_Data_Types
             //int number = 24;
             //Console.WriteLine(number);
 
-            int hamburgerPrice = 300;
-            int cokePrice = 35;
-            int waterPrice = 10;
-            int friesPrice = 50;
-            int pizzaPrice = 250;
-            int lemonadePrice = 30;
+            //int hamburgerPrice = 300;
+            //int cokePrice = 35;
+            //int waterPrice = 10;
+            //int friesPrice = 50;
+            //int pizzaPrice = 250;
+            //int lemonadePrice = 30;
 
-            Console.WriteLine("***** Restaurant Menu *****");
+            //Console.WriteLine("***** Restaurant Menu *****");
+            //Console.WriteLine();
+            //Console.WriteLine("-----Hamburger Price: " + hamburgerPrice + "TL");
+            //Console.WriteLine("-----Pizza Price: " + pizzaPrice + "TL");
+            //Console.WriteLine("-----Coke Price: " + cokePrice + "TL");
+            //Console.WriteLine("-----Lemonade Price: " + lemonadePrice + "TL");
+            //Console.WriteLine("-----Fries Price: " + friesPrice + "TL");
+            //Console.WriteLine("-----Water Price: " + waterPrice + "TL");
+            //Console.WriteLine();
+            //Console.WriteLine("***** Restaurant Menu *****");
+
+            //Console.WriteLine();
+            //int hamburgerCount,cokeCount, waterCount, friesCount, pizzaCount, lemonadeCount,totalHamburgerPrice;
+            //int totalCokePrice , totalWaterPrice , totalFriesPrice , totalPizzaPrice , totalLemonadePrice;
+
+            //hamburgerCount = 3;
+            //cokeCount = 3;
+            //waterCount = 3;
+            //friesCount = 1;
+            //pizzaCount = 0;
+            //lemonadeCount = 0;
+
+            //totalHamburgerPrice = hamburgerCount * hamburgerPrice;
+            //totalCokePrice = cokeCount * cokePrice;
+            //totalFriesPrice = friesCount * friesPrice;
+            //totalPizzaPrice = pizzaCount * pizzaPrice;
+            //totalLemonadePrice = lemonadeCount * lemonadePrice;
+            //totalWaterPrice = waterCount * waterPrice;
+
+            //Console.WriteLine("---------------------------------------");
+            //Console.WriteLine("Hamburger Amount: " + totalHamburgerPrice + " TL ");
+            //Console.WriteLine("Coke Amount: " + totalCokePrice + " TL ");
+            //Console.WriteLine("Water Amount: " + totalWaterPrice + " TL ");
+            //Console.WriteLine("Fries Amount: " + totalFriesPrice + " TL ");
+            //Console.WriteLine("Pizza Amount: " + totalPizzaPrice + " TL ");
+            //Console.WriteLine("Lemonade Amount: " + totalLemonadePrice + " TL ");
+            //Console.WriteLine();
+
+            //int TotalPrice = totalHamburgerPrice + totalCokePrice + totalFriesPrice + totalPizzaPrice + totalLemonadePrice + totalWaterPrice;
+
+            //Console.WriteLine("Total Amount: " + TotalPrice + " TL ");
+
+            #endregion
+
+            #region Double Variables
+
+            //double number;
+
+            //number = 4.85;
+
+            //Console.WriteLine(number);
+
+            Console.WriteLine("***** Fiyat Listesi *****");
             Console.WriteLine();
-            Console.WriteLine("-----Hamburger Price: " + hamburgerPrice + "TL");
-            Console.WriteLine("-----Pizza Price: " + pizzaPrice + "TL");
-            Console.WriteLine("-----Coke Price: " + cokePrice + "TL");
-            Console.WriteLine("-----Lemonade Price: " + lemonadePrice + "TL");
-            Console.WriteLine("-----Fries Price: " + friesPrice + "TL");
-            Console.WriteLine("-----Water Price: " + waterPrice + "TL");
-            Console.WriteLine();
-            Console.WriteLine("***** Restaurant Menu *****");
+
+            double applePrice, orangePrice, strawberryPrice, potatoPrice, tomatoPrice;
+
+            applePrice = 14.85;
+            orangePrice = 20.95;
+            strawberryPrice = 45;
+            potatoPrice = 9.74;
+            tomatoPrice = 6.88;
+
+            Console.WriteLine("---- Apple Price: " + applePrice + " TL");
+            Console.WriteLine("---- Orange Price: " + orangePrice + " TL");
+            Console.WriteLine("---- Strawberry Price: " + strawberryPrice + " TL");
+            Console.WriteLine("---- Potato Price: " + potatoPrice + " TL");
+            Console.WriteLine("---- Tomato Price: " + tomatoPrice + " TL");
 
             Console.WriteLine();
-            int hamburgerCount,cokeCount, waterCount, friesCount, pizzaCount, lemonadeCount,totalHamburgerPrice;
-            int totalCokePrice , totalWaterPrice , totalFriesPrice , totalPizzaPrice , totalLemonadePrice;
-
-            hamburgerCount = 3;
-            cokeCount = 3;
-            waterCount = 3;
-            friesCount = 1;
-            pizzaCount = 0;
-            lemonadeCount = 0;
-
-            totalHamburgerPrice = hamburgerCount * hamburgerPrice;
-            totalCokePrice = cokeCount * cokePrice;
-            totalFriesPrice = friesCount * friesPrice;
-            totalPizzaPrice = pizzaCount * pizzaPrice;
-            totalLemonadePrice = lemonadeCount * lemonadePrice;
-            totalWaterPrice = waterCount * waterPrice;
-
-            Console.WriteLine("---------------------------------------");
-            Console.WriteLine("Hamburger Amount: " + totalHamburgerPrice + " TL ");
-            Console.WriteLine("Coke Amount: " + totalCokePrice + " TL ");
-            Console.WriteLine("Water Amount: " + totalWaterPrice + " TL ");
-            Console.WriteLine("Fries Amount: " + totalFriesPrice + " TL ");
-            Console.WriteLine("Pizza Amount: " + totalPizzaPrice + " TL ");
-            Console.WriteLine("Lemonade Amount: " + totalLemonadePrice + " TL ");
             Console.WriteLine();
 
-            int TotalPrice = totalHamburgerPrice + totalCokePrice + totalFriesPrice + totalPizzaPrice + totalLemonadePrice + totalWaterPrice;
+            double appleGram,orangeGram, strawberryGram, potatoGram, tomatoGram;
 
-            Console.WriteLine("Total Amount: " + TotalPrice + " TL ");
+            appleGram = 1.245;
+            orangeGram = 2.650;
+            strawberryGram = 0.750;
+            potatoGram = 4.859;
+            tomatoGram = 3.745;
+
+            double appleTotalPrice = applePrice * appleGram;
+            double orangeTotalPrice = orangePrice * orangeGram;
+            double strawberryTotalPrice = strawberryPrice * strawberryGram;
+            double potatoTotalPrice = potatoPrice * potatoGram;
+            double tomatoTotalPrice = tomatoPrice * tomatoGram;
+
+            Console.WriteLine("Product Received : Apple - " + "Unit Price: " + applePrice + " TL - Gram: " + appleGram + " gr - Total Price: " + appleTotalPrice + " TL");
+            Console.WriteLine("Product Received : Orange - " + "Unit Price: " + orangePrice + " TL - Gram: " + orangeGram + " gr - Total Price: " + orangeTotalPrice + " TL");
+            Console.WriteLine("Product Received : Strawberry - " + "Unit Price: " + strawberryPrice + " TL - Gram: " + strawberryGram + " gr - Total Price: " + strawberryTotalPrice + " TL");
+            Console.WriteLine("Product Received : Potato - " + "Unit Price: " + potatoPrice + " TL - Gram: " + potatoGram + " gr - Total Price: " + potatoTotalPrice + " TL");
+            Console.WriteLine("Product Received : Tomato - " + "Unit Price: " + tomatoPrice + " TL - Gram: " + tomatoGram + " gr - Total Price: " + tomatoTotalPrice + " TL");
+
+            double shoppingTotalPrice = appleTotalPrice + orangeTotalPrice + strawberryTotalPrice + potatoTotalPrice + tomatoTotalPrice;
+
+            Console.WriteLine();
+            Console.WriteLine("Total Shopping Price: " + shoppingTotalPrice + " TL");
 
             #endregion
 
