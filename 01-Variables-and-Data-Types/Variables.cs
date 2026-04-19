@@ -211,9 +211,43 @@ namespace Lesson1._01_Variables_and_Data_Types
 
             #endregion
 
+            #region Keyboard Data Inputs - String Variables
+
+            Console.WriteLine("**** CSharp Airlines Passenger Information ****");
+            Console.WriteLine();
+
+            string passengerName, passengerSurname, passengerDistrict, passengerCity, passengerAge, passengerIdentityNumber;
+
+            Console.Write("Passenger Name: ");
+            passengerName = Console.ReadLine();
+
+            Console.Write("Passenger Surname: ");
+            passengerSurname = Console.ReadLine();
+
+            Console.Write("District: ");
+            passengerDistrict = Console.ReadLine();
+
+            Console.Write("City: ");
+            passengerCity = Console.ReadLine();
+
+            Console.Write("Age: ");
+            passengerAge = Console.ReadLine();
+
+            Console.Write("Identity Number: ");
+            passengerIdentityNumber = Console.ReadLine();
+
+            Console.WriteLine();
+
+            Console.WriteLine("------------------------------");
+            Console.WriteLine("Passenger : " + passengerName + " - " + passengerSurname + " - "  + passengerCity + " - " + passengerAge + " - " + "Passenger Identity Number : "  + passengerIdentityNumber);
+
+
+            #endregion
+
+
             Console.Read();
 
-
+            
 
 
 
