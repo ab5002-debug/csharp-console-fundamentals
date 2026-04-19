@@ -251,33 +251,65 @@ namespace Lesson1._01_Variables_and_Data_Types
 
             //ABC12D
 
-            int shoesPrice, computerPrice, chairPrice, tvPrice;
+            //int shoesPrice, computerPrice, chairPrice, tvPrice;
 
-            shoesPrice = 1000;
-            computerPrice = 20000;
-            chairPrice = 5000;
-            tvPrice = 12000;
+            //shoesPrice = 1000;
+            //computerPrice = 20000;
+            //chairPrice = 5000;
+            //tvPrice = 12000;
 
-            int shoesCount, computerCount, chairCount, tvCount;
+            //int shoesCount, computerCount, chairCount, tvCount;
 
-            Console.Write("Please enter the number of shoes you purchased : ");
-            shoesCount = int.Parse(Console.ReadLine());
+            //Console.Write("Please enter the number of shoes you purchased : ");
+            //shoesCount = int.Parse(Console.ReadLine());
 
-            Console.Write("Please enter the number of computer you purchased: ");
-            computerCount = int.Parse(Console.ReadLine());
+            //Console.Write("Please enter the number of computer you purchased: ");
+            //computerCount = int.Parse(Console.ReadLine());
 
-            Console.Write("Please enter the number of chair you purchased: ");
-            chairCount = int.Parse(Console.ReadLine());
+            //Console.Write("Please enter the number of chair you purchased: ");
+            //chairCount = int.Parse(Console.ReadLine());
 
-            Console.Write("Please enter the number of tv you purchased: ");
-            tvCount = int.Parse(Console.ReadLine());
+            //Console.Write("Please enter the number of tv you purchased: ");
+            //tvCount = int.Parse(Console.ReadLine());
 
-            int totalPrice = shoesCount * shoesPrice + computerCount * computerPrice + chairCount * chairPrice + tvCount * tvPrice;
+            //int totalPrice = shoesCount * shoesPrice + computerCount * computerPrice + chairCount * chairPrice + tvCount * tvPrice;
 
-            Console.WriteLine();
-            Console.WriteLine($"Total Price: {totalPrice} TL");
+            //Console.WriteLine();
+            //Console.WriteLine($"Total Price: {totalPrice} TL");
 
 
+
+            #endregion
+
+            #region Keyboard Input of Decimal Numbers
+
+            //double exam1, exam2, exam3, result;
+
+            //Console.Write("Please enter the first exam grade : ");
+            //exam1 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Please enter the second exam grade : ");
+            //exam2 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Please enter the third exam grade : ");
+            //exam3 = double.Parse(Console.ReadLine());
+
+            //result = (exam1 + exam2 + exam3) / 3;
+
+            //Console.WriteLine();
+            //Console.WriteLine("Average Grade: " + result);
+
+
+
+            #endregion
+
+            #region Char Inputs From The Keyboard
+
+            char gender;
+            Console.Write("Please enter your gender (M/F): ");
+            gender = char.Parse(Console.ReadLine());
+
+            Console.WriteLine("Your gender is: " + gender);
 
             #endregion
 
