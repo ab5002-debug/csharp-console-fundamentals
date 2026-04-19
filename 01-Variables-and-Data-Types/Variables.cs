@@ -305,14 +305,13 @@ namespace Lesson1._01_Variables_and_Data_Types
 
             #region Char Inputs From The Keyboard
 
-            char gender;
-            Console.Write("Please enter your gender (M/F): ");
-            gender = char.Parse(Console.ReadLine());
+            //char gender;
+            //Console.Write("Please enter your gender (M/F): ");
+            //gender = char.Parse(Console.ReadLine());
 
-            Console.WriteLine("Your gender is: " + gender);
+            //Console.WriteLine("Your gender is: " + gender);
 
             #endregion
-
 
             Console.Read();
 

@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Lesson1._01_Variables_and_Data_Types.Variables.Lesson1();
+            Lesson._02_Decision_Structures.DecisionBlocks.DecisionBlocksLesson();
         }
     }
 }
