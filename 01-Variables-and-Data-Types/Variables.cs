@@ -149,50 +149,65 @@ namespace Lesson1._01_Variables_and_Data_Types
 
             //Console.WriteLine(number);
 
-            Console.WriteLine("***** Fiyat Listesi *****");
-            Console.WriteLine();
+            //Console.WriteLine("***** Fiyat Listesi *****");
+            //Console.WriteLine();
 
-            double applePrice, orangePrice, strawberryPrice, potatoPrice, tomatoPrice;
+            //double applePrice, orangePrice, strawberryPrice, potatoPrice, tomatoPrice;
 
-            applePrice = 14.85;
-            orangePrice = 20.95;
-            strawberryPrice = 45;
-            potatoPrice = 9.74;
-            tomatoPrice = 6.88;
+            //applePrice = 14.85;
+            //orangePrice = 20.95;
+            //strawberryPrice = 45;
+            //potatoPrice = 9.74;
+            //tomatoPrice = 6.88;
 
-            Console.WriteLine("---- Apple Price: " + applePrice + " TL");
-            Console.WriteLine("---- Orange Price: " + orangePrice + " TL");
-            Console.WriteLine("---- Strawberry Price: " + strawberryPrice + " TL");
-            Console.WriteLine("---- Potato Price: " + potatoPrice + " TL");
-            Console.WriteLine("---- Tomato Price: " + tomatoPrice + " TL");
+            //Console.WriteLine("---- Apple Price: " + applePrice + " TL");
+            //Console.WriteLine("---- Orange Price: " + orangePrice + " TL");
+            //Console.WriteLine("---- Strawberry Price: " + strawberryPrice + " TL");
+            //Console.WriteLine("---- Potato Price: " + potatoPrice + " TL");
+            //Console.WriteLine("---- Tomato Price: " + tomatoPrice + " TL");
 
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
 
-            double appleGram,orangeGram, strawberryGram, potatoGram, tomatoGram;
+            //double appleGram,orangeGram, strawberryGram, potatoGram, tomatoGram;
 
-            appleGram = 1.245;
-            orangeGram = 2.650;
-            strawberryGram = 0.750;
-            potatoGram = 4.859;
-            tomatoGram = 3.745;
+            //appleGram = 1.245;
+            //orangeGram = 2.650;
+            //strawberryGram = 0.750;
+            //potatoGram = 4.859;
+            //tomatoGram = 3.745;
 
-            double appleTotalPrice = applePrice * appleGram;
-            double orangeTotalPrice = orangePrice * orangeGram;
-            double strawberryTotalPrice = strawberryPrice * strawberryGram;
-            double potatoTotalPrice = potatoPrice * potatoGram;
-            double tomatoTotalPrice = tomatoPrice * tomatoGram;
+            //double appleTotalPrice = applePrice * appleGram;
+            //double orangeTotalPrice = orangePrice * orangeGram;
+            //double strawberryTotalPrice = strawberryPrice * strawberryGram;
+            //double potatoTotalPrice = potatoPrice * potatoGram;
+            //double tomatoTotalPrice = tomatoPrice * tomatoGram;
 
-            Console.WriteLine("Product Received : Apple - " + "Unit Price: " + applePrice + " TL - Gram: " + appleGram + " gr - Total Price: " + appleTotalPrice + " TL");
-            Console.WriteLine("Product Received : Orange - " + "Unit Price: " + orangePrice + " TL - Gram: " + orangeGram + " gr - Total Price: " + orangeTotalPrice + " TL");
-            Console.WriteLine("Product Received : Strawberry - " + "Unit Price: " + strawberryPrice + " TL - Gram: " + strawberryGram + " gr - Total Price: " + strawberryTotalPrice + " TL");
-            Console.WriteLine("Product Received : Potato - " + "Unit Price: " + potatoPrice + " TL - Gram: " + potatoGram + " gr - Total Price: " + potatoTotalPrice + " TL");
-            Console.WriteLine("Product Received : Tomato - " + "Unit Price: " + tomatoPrice + " TL - Gram: " + tomatoGram + " gr - Total Price: " + tomatoTotalPrice + " TL");
+            //Console.WriteLine("Product Received : Apple - " + "Unit Price: " + applePrice + " TL - Gram: " + appleGram + " gr - Total Price: " + appleTotalPrice + " TL");
+            //Console.WriteLine("Product Received : Orange - " + "Unit Price: " + orangePrice + " TL - Gram: " + orangeGram + " gr - Total Price: " + orangeTotalPrice + " TL");
+            //Console.WriteLine("Product Received : Strawberry - " + "Unit Price: " + strawberryPrice + " TL - Gram: " + strawberryGram + " gr - Total Price: " + strawberryTotalPrice + " TL");
+            //Console.WriteLine("Product Received : Potato - " + "Unit Price: " + potatoPrice + " TL - Gram: " + potatoGram + " gr - Total Price: " + potatoTotalPrice + " TL");
+            //Console.WriteLine("Product Received : Tomato - " + "Unit Price: " + tomatoPrice + " TL - Gram: " + tomatoGram + " gr - Total Price: " + tomatoTotalPrice + " TL");
 
-            double shoppingTotalPrice = appleTotalPrice + orangeTotalPrice + strawberryTotalPrice + potatoTotalPrice + tomatoTotalPrice;
+            //double shoppingTotalPrice = appleTotalPrice + orangeTotalPrice + strawberryTotalPrice + potatoTotalPrice + tomatoTotalPrice;
 
-            Console.WriteLine();
-            Console.WriteLine("Total Shopping Price: " + shoppingTotalPrice + " TL");
+            //Console.WriteLine();
+            //Console.WriteLine("Total Shopping Price: " + shoppingTotalPrice + " TL");
+
+            #endregion
+
+            #region Char Variables
+
+            //ABCDEFGH
+            //DEF...
+            //MEETİNG AT 8 PM
+            // ' ' 
+
+            //char symbol;
+            //symbol = 'a';
+
+            //Console.WriteLine(symbol);
+
 
             #endregion
 
