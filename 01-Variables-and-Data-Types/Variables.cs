@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
+using System.Numerics;
 using System.Text;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Lesson1._01_Variables_and_Data_Types
 {
@@ -213,33 +216,67 @@ namespace Lesson1._01_Variables_and_Data_Types
 
             #region Keyboard Data Inputs - String Variables
 
-            Console.WriteLine("**** CSharp Airlines Passenger Information ****");
+            //Console.WriteLine("**** CSharp Airlines Passenger Information ****");
+            //Console.WriteLine();
+
+            //string passengerName, passengerSurname, passengerDistrict, passengerCity, passengerAge, passengerIdentityNumber;
+
+            //Console.Write("Passenger Name: ");
+            //passengerName = Console.ReadLine();
+
+            //Console.Write("Passenger Surname: ");
+            //passengerSurname = Console.ReadLine();
+
+            //Console.Write("District: ");
+            //passengerDistrict = Console.ReadLine();
+
+            //Console.Write("City: ");
+            //passengerCity = Console.ReadLine();
+
+            //Console.Write("Age: ");
+            //passengerAge = Console.ReadLine();
+
+            //Console.Write("Identity Number: ");
+            //passengerIdentityNumber = Console.ReadLine();
+
+            //Console.WriteLine();
+
+            //Console.WriteLine("------------------------------");
+            //Console.WriteLine("Passenger : " + passengerName + " - " + passengerSurname + " - "  + passengerCity + " - " + passengerAge + " - " + "Passenger Identity Number : "  + passengerIdentityNumber);
+
+
+            #endregion
+
+            #region Integer Inputs And Conversions From The Keyboard
+
+            //ABC12D
+
+            int shoesPrice, computerPrice, chairPrice, tvPrice;
+
+            shoesPrice = 1000;
+            computerPrice = 20000;
+            chairPrice = 5000;
+            tvPrice = 12000;
+
+            int shoesCount, computerCount, chairCount, tvCount;
+
+            Console.Write("Please enter the number of shoes you purchased : ");
+            shoesCount = int.Parse(Console.ReadLine());
+
+            Console.Write("Please enter the number of computer you purchased: ");
+            computerCount = int.Parse(Console.ReadLine());
+
+            Console.Write("Please enter the number of chair you purchased: ");
+            chairCount = int.Parse(Console.ReadLine());
+
+            Console.Write("Please enter the number of tv you purchased: ");
+            tvCount = int.Parse(Console.ReadLine());
+
+            int totalPrice = shoesCount * shoesPrice + computerCount * computerPrice + chairCount * chairPrice + tvCount * tvPrice;
+
             Console.WriteLine();
+            Console.WriteLine($"Total Price: {totalPrice} TL");
 
-            string passengerName, passengerSurname, passengerDistrict, passengerCity, passengerAge, passengerIdentityNumber;
-
-            Console.Write("Passenger Name: ");
-            passengerName = Console.ReadLine();
-
-            Console.Write("Passenger Surname: ");
-            passengerSurname = Console.ReadLine();
-
-            Console.Write("District: ");
-            passengerDistrict = Console.ReadLine();
-
-            Console.Write("City: ");
-            passengerCity = Console.ReadLine();
-
-            Console.Write("Age: ");
-            passengerAge = Console.ReadLine();
-
-            Console.Write("Identity Number: ");
-            passengerIdentityNumber = Console.ReadLine();
-
-            Console.WriteLine();
-
-            Console.WriteLine("------------------------------");
-            Console.WriteLine("Passenger : " + passengerName + " - " + passengerSurname + " - "  + passengerCity + " - " + passengerAge + " - " + "Passenger Identity Number : "  + passengerIdentityNumber);
 
 
             #endregion
