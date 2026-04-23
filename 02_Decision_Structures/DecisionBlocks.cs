@@ -282,9 +282,9 @@ namespace Lesson._02_Decision_Structures
 
             #region Switch-Case Calculator Project
 
-            //int num1,num2, result;
+            //int num1, num2, result;
             //char symbol;
-            
+
             //Console.Write("Enter the first number: ");
             //num1 = int.Parse(Console.ReadLine());
             //Console.Write("Enter the second number: ");
@@ -294,9 +294,10 @@ namespace Lesson._02_Decision_Structures
 
             //switch (symbol)
             //{
-            //    case '+': result = num1 + num2;
-            //            Console.WriteLine("Result: " + result);
-            //            break;
+            //    case '+':
+            //        result = num1 + num2;
+            //        Console.WriteLine("Result: " + result);
+            //        break;
             //    case '-':
             //        result = num1 - num2;
             //        Console.WriteLine("Result: " + result);
@@ -310,7 +311,7 @@ namespace Lesson._02_Decision_Structures
             //        Console.WriteLine("Result: " + result);
             //        break;
 
-            //    default : Console.WriteLine("Invalid operation symbol!"); break;
+            //    default: Console.WriteLine("Invalid operation symbol!"); break;
             //}
 
 
