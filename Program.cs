@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Lesson._02_Decision_Structures.DecisionBlocks.DecisionBlocksLesson();
+            Lesson._03_Loops.Loops.LoopsLesson();
         }
     }
 }
