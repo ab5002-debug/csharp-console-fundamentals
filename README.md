@@ -10,9 +10,9 @@ This repository is designed to document my daily learning progress. It includes 
 
 The project is organized into modular folders based on specific topics to ensure clean code and easy navigation:
 
-***01_Variables_and_Data_Types***: Fundamental data types (int, string, double, etc.) and basic arithmetic operations. (✅Completed)
+***01_Variables_and_Data_Types***: Fundamental data types (int, string, double, etc.) and basic arithmetic operations. (✅ Completed)
 
-***02_Decision_Structures***: Logic implementation using if-else statements and switch-case blocks. (🔄 In Progress)
+***02_Decision_Structures***: Logic implementation using if-else statements and switch-case blocks. (✅ Completed)
 
 ***03_Loops***: Implementation of for, while, and do-while loops (⏳ Up Coming).
 
