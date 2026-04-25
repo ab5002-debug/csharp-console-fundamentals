@@ -14,7 +14,9 @@ The project is organized into modular folders based on specific topics to ensure
 
 ***02_Decision_Structures***: Logic implementation using if-else statements and switch-case blocks. (✅ Completed)
 
-***03_Loops***: Implementation of for, while, and do-while loops (🔄 In Progress).
+***03_Loops***: Implementation of for, while, and do-while loops (✅ Completed).
+
+***04_Arrays***: Managing collections of data, indexing, and iterating through elements using `foreach`. (🔄 In Progress).
 
   ## **Tech Stack**
 
