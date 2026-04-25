@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Lesson._03_Loops.Loops.LoopsLesson();
+            Lesson._04_Arrays.Arrays.ArrayLesson();
         }
     }
 }
