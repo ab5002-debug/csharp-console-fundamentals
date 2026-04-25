@@ -169,6 +169,164 @@ namespace Lesson._03_Loops
 
             #endregion
 
+            #region Loops with Stars
+
+            #region Create 10 stars one below the other
+
+            //for (int i = 1; i <= 10 ; i++)
+            //{
+            //    Console.WriteLine("*");
+            //}
+
+
+            #endregion
+
+            #region Create 10 stars side by side
+
+            //for (int i = 1; i <= 10 ; i++)
+            //{
+            //    Console.Write("*");
+            //}
+
+            #endregion
+
+            #region Create 10 stars one below the other, with 10 stars in each row
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine("**********");
+            //}
+
+
+            #endregion
+
+            #region Right triangle with stars
+
+            //for (int i = 1; i <= 5 ; i++)
+            //{
+            //    for (int j = 1; j <= i ; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            #endregion
+
+            #region Reverse right triangle with stars
+
+            //for (int i = 5; i >= 1; i--)
+            //{
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
+
+            #region Diamond with stars
+
+            //for(int i = 1; i <= 5;  i++)
+            //{
+            //    for(int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for(int k = 4; k >= 1; k--)
+            //{
+            //    for(int m = 1; m <= k; m++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+            #endregion
+
+            #region Baklava with stars
+
+            //int n = 5;
+
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    for (int j = n-1 ; j > 0 ; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int k = 1; k <= 2*i-1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for (int i = n-1 ; i >= 1; i--)
+            //{
+            //    for (int j = n-1 ; j > 0 ; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int k = 1; k <= 2*i-1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
+
+            #region Pyramid with stars
+
+            //int n = 5;
+
+            //for(int i = 1; i<=n; i++)
+            //{
+            //    for (int j = n-i; j > 0 ; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int k = 1; k <= 2 * i-1 ; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            #endregion
+
+            #region Reverse pyramid with stars
+
+            //int n = 5;
+            //for (int i = n; i >= 1 ; i--)
+            //{
+            //    for (int j = n-i; j > 0  ; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int k = 1; k <= 2*i-1;k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            #endregion
+
+
+            #endregion
             Console.Read();
         }
     }
